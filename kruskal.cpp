@@ -109,8 +109,7 @@ void KruskalMST(struct Graph* graph)
 	// construcao MST
 	printf("Following are the edges in the constructed MST\n");
 	for (i = 0; i < e; ++i)
-		printf("%d -- %d == %d\n", result[i].src, result[i].dest,
-												result[i].weight);
+		printf("%d -- %d == %d\n", result[i].src, result[i].dest, result[i].weight);
 	return;
 }
 
